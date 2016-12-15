@@ -1,0 +1,7 @@
+test_homepage:
+    path:     /home
+    defaults: { _controller: TestBundle:Default:index }
+
+test_param:
+    path:     /param/{nom}/{prenom}
+    defaults: { _controller: TestBundle:Default:param }
